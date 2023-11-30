@@ -1,0 +1,19 @@
+  ///Задайтe одномерный массив из 10 целых чисел от 1 до 100. Найдите количество элементов массива,значения которых лежат в отрезке [20,90].
+
+int[] array = new int[10] { 1, 25, 78, 36, 90, 12, 87, 63, 45, 10 };
+int count = 0;
+
+for (int I = 0; I < array.Length; i++)
+{
+    if (array[i] >= 20 && array[i] <= 90)
+    {
+        count++;
+    }
+}
+
+Console.WriteLine("Number of elements in the array between 20 and 90: " + count);
+
+        
+             
+
+
